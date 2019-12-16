@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+
+body, html {
+margin: 0;
+padding: 0;
+height: 100vh;
+font-family: 'Roboto', sans-serif;
+}
+
+/*FORSIDE*/
+
+
+.logo {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 100%;
+  font-weight:600;
+  background-color: #F8F9FA;
+}
+
+
+
+.stuttcars{
+text-align: center;
+position: relative;
+top: 10%;
+}
+
+
+
+.nav-link {
+  font-size: 150%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+
+.footer {
+  text-align: center;
+  font-size: 90%;
+  justify-content: space-between;
+  display: inline;
+  color: black;
+  }
+  
+  .fb-page { position: relative;
+    left: 5%;
+    text-align: center;
+    margin-top: 5rem;
+    }
+    
+
+.intro {
+height: 20%;
+width: 100%;
+background-image: url(images/inside.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+opacity: 0.85;
+position: absolute;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family:'Bebas Neue', sans-serif;
+}
+
+
+
+
+
+
+.front {
+height: 100vh;
+position: relative;
+margin: auto;
+text-align: center;
+top: 25%;
+}
+
+
+.linkfoto {margin: 1rem 2rem 1rem;
+  -webkit-box-shadow: 7px 6px 15px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 6px 15px -8px rgba(0,0,0,0.75);
+  box-shadow: 7px 6px 15px -8px rgba(0,0,0,0.75);
+border-radius: 10px;}
+
+p {width: 90%;
+font-size: 90%;
+top: 10%;
+margin: auto;
+position: relative;
+font-weight: 600;
+text-align: left;
+}
+
+.parallax {background-image: url(images/michael.png);
+height: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: -15rem;}
+
+
+footer {margin: 0 auto;
+text-align: center;
+}
+.fa-facebook {font-size: 600%;
+padding: 14px;
+color: black;}
+.fa-instagram {font-size: 600%;
+padding: 14px;
+color: black;}
+
+
+
+
+/*BILER*/
+
+/*SLIDSHOW BILER*/
+
+
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: absolute;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 12%;
+  margin-top: -15rem;
+  top: 185%;
+  }
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #e50000;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.specs {position: absolute;
+text-align: center;
+top: 45%;}
+
+
+.specs2 {position: absolute;
+  text-align: center;
+  top: 115%;
+}
+
+.footerbiler {position: absolute;
+top: 150%;}
+
+/*SERVICE*/
+
+
+
+#h1-service {text-align: center;
+position: relative;
+height: 50%;
+top: 22%;}
+
+#servbox1 {position: absolute;
+  top: 55%;
+  text-align: center;
+  margin: 0 auto;
+ 
+
+
+
+}
+#servbox2 {position: absolute;
+  top: 150%;
+  text-align: center;
+  margin: 0 auto;
+  left: 10%;
+  margin-bottom: 2rem;
+}
+
+.footer-service {position: absolute;
+top: 200%;}
+
+
+
+
+/*LEASING*/
+
+.infopng {height: 100%;
+position: absolute;
+top: 40%;
+}
+
+#h1-lease {text-align: center;}
+
+
+
+
+
+section {
+  position: relative;
+  top: 85%;
+ 
+}
+#h2 {text-align: center;}
+
+
+
+
+
+
+.contact {position: relative;
+top: 100%;
+border-radius: 20px;
+background-color: #f8f9fa;
+padding: 10px;
+  width: 100%;
+margin-bottom: 6rem;
+-webkit-box-shadow: 0px 18px 53px -3px rgba(0,0,0,0.37);
+-moz-box-shadow: 0px 18px 53px -3px rgba(0,0,0,0.37);
+box-shadow: 0px 18px 53px -3px rgba(0,0,0,0.37);}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #e60000b6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #e60000;
+}
+
+

@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+
+body, html {
+margin: 0;
+padding: 0;
+height: 100vh;
+font-family: 'Roboto', sans-serif;
+}
+
+/*FORSIDE*/
+
+
+.logo {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 150%;
+  font-weight:600;
+  background-color: #F8F9FA;
+}
+
+#logomobile {display: none;}
+
+.stuttcars {
+text-align: center;
+position: relative;
+top: 10%;
+}
+
+
+
+.nav-link {
+  font-size: 150%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+
+
+
+.intro {
+height: 50%;
+width: 100%;
+background-image: url(images/inside.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+opacity: 0.85;
+position: absolute;
+z-index: -2;
+}
+
+.intromobile {display: none;}
+
+
+
+
+.front {background-image: url(images/michael.png);
+height: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+position: relative;
+top: 25%;
+z-index: 1;
+}
+
+.fotolinks {
+position: relative;
+top: 35%;
+left: 19%;
+width: 70%;
+}
+
+.fb-page { position: relative;
+left: 38%;
+margin-top: 5rem;
+}
+
+.linkfoto {margin: 1rem 2rem 1rem;
+  -webkit-box-shadow: 7px 6px 15px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 6px 15px -8px rgba(0,0,0,0.75);
+  box-shadow: 7px 6px 15px -8px rgba(0,0,0,0.75);
+border-radius: 10px;}
+
+p {width: 35%;
+font-size: 110%;
+padding: 0.5rem;
+margin: auto;
+z-index: -5;
+position: relative;
+top: -10%;
+font-weight: 600;
+text-align: center;
+}
+
+.parallax {background-image: url(images/gt2.jpg);
+height: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+margin-top: -3.6%;}
+
+
+
+
+
+
+
+/*BILER*/
+
+/*SLIDSHOW BILER*/
+
+
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 10%;
+  margin-top: -15rem;
+  }
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #e50000;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.specs {text-align: center;}
+#specs {margin-top: 25rem;
+  margin-bottom: 2rem;
+margin-right: -50%;}
+
+.specs2 {position: relative;
+top: -65%;
+left: 8%;
+width: 90%;
+z-index: -1;}
+
+/*SERVICE*/
+
+
+
+h1 {text-align: center;
+position: relative;
+top: 53%;}
+
+#servbox1 {position: relative;
+left: 15%;
+margin-top: 30%;
+margin-bottom: 5rem;}
+#servbox2 {position: relative;
+  left: 15%;
+
+  margin-top: 20%;}
+
+
+  .parallax2 {background-image: url(images/auto-automobile-automotive-car-305070.jpg);
+  height:60%;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+
+/*LEASING*/
+
+#infographic {height: 95%;
+position: absolute;
+top: 70%;
+left: 25%;
+}
+
+#flexheader {position: relative;
+top: 153%;
+text-transform: uppercase;}
+
+section {position: absolute;
+top: 180%;
+display: flex;
+}
+
+.section2 {position: absolute;
+  top: 245%;
+  display: flex;
+  }
+
+  .section3 {position: absolute;
+    top: 300%;
+    display: flex;
+    }
+
+#flexp {text-align: left;
+float: left;
+margin-left: 10rem;
+text-align: justify;
+font-size: 100%;
+
+}
+
+#flexp2 {text-align: left;
+float: right;
+margin-right: 10rem;
+text-align: justify;
+font-size: 100%;
+}
+
+#flexp3 {text-align: left;
+  float: left;
+  margin-left: 10rem;
+  text-align: justify;
+  font-size: 100%;
+  
+  }
+  
+  #flexp4 {text-align: left;
+  float: right;
+  margin-right: 10rem;
+  text-align: justify;
+  font-size: 100%;
+  }
+
+  #flexp5 {text-align: left;
+    float: left;
+    margin-left: 10rem;
+    text-align: justify;
+    font-size: 100%;
+    
+    }
+    
+    #flexp6 {text-align: left;
+    float: right;
+    margin-right: 10rem;
+    text-align: justify;
+    font-size: 100%;
+    }
+
+h2 {position: relative;
+top: 210%;
+text-align: center;
+text-transform: uppercase;}
+
+.contact {position: relative;
+top: 340%;
+border-radius: 5px;
+background-color: #f8f9fa;
+padding: 10px;
+  width: 50%;
+  margin-left: 10%;
+left: 15%;
+margin-bottom: 6rem;
+-webkit-box-shadow: 0px 18px 53px -3px rgba(0,0,0,0.37);
+-moz-box-shadow: 0px 18px 53px -3px rgba(0,0,0,0.37);
+box-shadow: 0px 18px 53px -3px rgba(0,0,0,0.37);}
+
+.kontaktos {
+position: relative;
+top: 325%;
+text-align: center;
+
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #e60000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #e60000;
+}
+
+.footer {
+text-align: center;
+font-size: 200%;
+justify-content: space-between;
+display: inline;
+}
+
+.footer-leasing {
+  text-align: center;
+  font-size: 200%;
+  justify-content: space-between;
+  display: inline;
+  }
+
+  .some {color: black;}
+
+
+
+.adresse, .kontakt, .firma {
+justify-content: space-between;
+display: inline-block;
+width: 20%;
+  font-size: 50%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  left: 18%;
+}
+
+.adresselease, .kontaktlease, .firmalease {
+
+  width: 100%;
+    font-size: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+
+    top: 350%;
+    justify-content: space-around;
+    align-content: space-between;
+  }
+
+#facebook, #instagram {position: relative;
+right: 50%;
+bottom: 18px;}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family:'Bebas Neue', sans-serif;
+}
